@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:7aa2f7&height=180&section=header&text=Braxton%20Hughes&fontSize=46&fontColor=c0caf5&fontAlignY=36&desc=Software%20engineer%20%C2%B7%20Vancouver%2C%20WA&descSize=16&descAlignY=56" alt="Braxton Hughes" />
 
 <a href="https://github.com/braxhughes">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Swift+6+%C2%B7+TypeScript+%C2%B7+desktop%2C+mobile%2C+cloud;Moss+%C2%B7+Peat+%C2%B7+Afoot+%C2%B7+agent+tooling" alt="Local-first software — your machine, your data" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Swift+6+%C2%B7+TypeScript+%C2%B7+desktop%2C+mobile%2C+cloud;Native+apps%2C+web+backends%2C+developer+tooling" alt="Local-first software — your machine, your data" />
 </a>
 
 </div>
