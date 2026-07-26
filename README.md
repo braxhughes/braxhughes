@@ -19,7 +19,7 @@
 
 ---
 
-## What I'm building
+## Projects
 
 | Project | What it is | Stack | Status |
 |---|---|---|---|
