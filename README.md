@@ -1,7 +1,8 @@
 ## Braxton Hughes
 
-CS student at **WSU Vancouver**. Equipment technician at a **semiconductor fab**. Before both
-of those, I sold things for a living — Apple hardware, then cars.
+CS student at **WSU Vancouver**. Production specialist at a **semiconductor fab**, monitoring
+automated manufacturing systems on a 24/7 floor. Before both of those, I sold things for a
+living — Apple hardware, then cars.
 
 I build small, local-first macOS apps, and I open-source the unglamorous tooling I write to
 build them.
