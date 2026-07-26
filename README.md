@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:7aa2f7&height=180&section=header&text=Braxton%20Hughes&fontSize=46&fontColor=c0caf5&fontAlignY=36&desc=Software%20engineer%20%C2%B7%20Vancouver%2C%20WA&descSize=16&descAlignY=56" alt="Braxton Hughes" />
 
 <a href="https://github.com/braxhughes">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Working+software%2C+shipped+honestly.;Swift+6+%C2%B7+TypeScript+%C2%B7+desktop%2C+mobile%2C+cloud;Every+public+claim+points+at+a+test+result." alt="Local-first software — your machine, your data" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Swift+6+%C2%B7+TypeScript+%C2%B7+desktop%2C+mobile%2C+cloud;Moss+%C2%B7+Peat+%C2%B7+Afoot+%C2%B7+agent+tooling" alt="Local-first software — your machine, your data" />
 </a>
 
 </div>
@@ -16,16 +16,6 @@
 > utilities in Swift 6, an iOS app with a TypeScript backend, and open-source tools
 > for running AI coding agents. Privacy-first by default — local when it should be,
 > cloud when the job calls for it.**
-
----
-
-## About
-
-CS student at WSU Vancouver. Production specialist at a semiconductor fab. Three years
-of tech sales before that — $350K of it in one year. I build software in the evenings.
-
-**One rule: I only claim what I've watched happen.** Every public claim points at a test
-result; the unproven ones get written down as findings, not features.
 
 ---
 
