@@ -130,10 +130,16 @@ lives in private repos — the metrics card is the accurate one, because it auth
   fork branch hardening the desktop voice path: push-to-talk that answers without opening
   a chat window, permission prompts that stop re-firing, realtime web search, and Apple
   Music routing. **Not yet upstreamed** — no pull request open as of July 2026.
-- **Agent tooling** — `agent-os-template` (earned autonomy for coding agents: an
-  append-only ledger, three review tiers, and an inspector that grades work the builder
-  didn't do), `claude-statusline`, and `agent-bell`. Written, licensed, and running daily
-  here; **currently private repos**, pending a release pass.
+- **[agent-bell](https://github.com/braxhughes/agent-bell)** — two quiet sounds for
+  Claude Code: one when the agent needs you, one when it's done. Installs as a plugin
+  in two commands. MIT, tagged.
+- **[claude-statusline](https://github.com/braxhughes/claude-statusline)** — a status
+  line that says *when to switch* — before you hit the usage wall mid-task, not after.
+  Every failure path exits silently; it can never break a session. MIT, tagged.
+- **[agent-os-template](https://github.com/braxhughes/agent-os-template)** — earned
+  autonomy for coding agents: an append-only ledger, three trust tiers, and an
+  `/inspect` skill that grades work the builder didn't do. A GitHub template — click
+  "Use this template" and it's yours. MIT, tagged.
 - **Architecture research** — a cross-repository audit of every project in the tree,
   written to be deliberately non-flattering: duplicate-maintenance findings, license
   mismatches, and sampling disclosed wherever code wasn't read end to end.
