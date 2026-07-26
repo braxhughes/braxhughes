@@ -1,0 +1,54 @@
+name: Metrics
+
+on:
+  # Rebuild the card once a day at 00:00 UTC.
+  schedule:
+    - cron: "0 0 * * *"
+  # Rebuild whenever the profile README changes.
+  push:
+    branches:
+      - main
+  # And let you rebuild it by hand from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate github-metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # A classic personal access token stored as a repo secret.
+          # Scopes: read:user, repo (repo is what lets the card count private work).
+          token: ${{ secrets.METRICS_TOKEN }}
+          # The built-in token is what commits the SVG back to this repo.
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: braxhughes
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Los_Angeles
+          config_display: large
+
+          # Year-at-a-glance contribution calendar.
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Language breakdown. repositories_affiliations lets it see private repos,
+          # which matters here because most of the work is in private repos.
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: no
+          repositories_affiliations: owner, collaborator
+
+          # When and how the commits actually happen.
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes

@@ -1,56 +1,174 @@
-## Braxton Hughes
+<div align="center">
 
-**I build small Mac apps that run entirely on your own computer.** No accounts, no
-cloud, no ads.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:7aa2f7&height=180&section=header&text=Braxton%20Hughes&fontSize=46&fontColor=c0caf5&fontAlignY=36&desc=Local-first%20software%20engineer%20%C2%B7%20Vancouver%2C%20WA&descSize=16&descAlignY=56" alt="Braxton Hughes" />
 
-- Computer Science student at **WSU Vancouver**
-- Production specialist at a **semiconductor fab** — I watch automated manufacturing
-  systems on a 24/7 floor
-- Before both of those, I sold things for a living: Apple hardware, then cars
-- Vancouver, WA
+<a href="https://github.com/braxhughes">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Local-first+software.+Your+machine%2C+your+data.;Swift+6+%2F+SwiftUI+%C2%B7+TypeScript+%2F+Electron+%C2%B7+on-device+ML;Every+public+claim+points+at+a+test+result." alt="Founder vision, architecture focus, delivery standard" />
+</a>
 
----
-
-### What I'm building
-
-**MOSS** — a calm daily dashboard. Your calendar, money, meals, news, email, and notes
-on one quiet screen. It runs on your machine; there's no account and no server holding
-your life. Public beta, free, MIT-licensed.
-
-→ **[github.com/braxhughes/mossprint](https://github.com/braxhughes/mossprint)**
-
-**Peat** — a Mac utility that keeps a local record of what you worked on, in files you
-can read and delete yourself. Screen reading, text recognition, and summarizing all
-happen on-device. In testing on the macOS 27 beta. Not shipped, no waitlist, nothing to
-sign up for. *(Private until it's real.)*
+</div>
 
 ---
 
-### How I work
+## Positioning
 
-I only claim what I've actually watched happen.
-
-Peat runs against a written claims register: every sentence I say about it in public has
-to point at a test result. The ones that aren't proven yet don't get said. When a test
-comes back weak, that gets written down as a finding — not rounded up into a feature.
-
-That's why my repos are full of verify steps, evidence folders, and READMEs that say
-"this part doesn't work yet."
+> **Building local-first desktop and mobile software for people who don't want their day
+> living on someone else's server — in Swift 6/SwiftUI and TypeScript/Electron, with
+> on-device inference and encrypted local storage.**
 
 ---
 
-### Why the odd background helps
+## Overview
 
-A fab floor runs on written procedures, root-cause analysis, and the assumption that
-undocumented work didn't happen.
+**What this is:** the profile of a 21-year-old who ships. CS at WSU Vancouver, production
+specialist at a semiconductor fab, and native macOS software in the evenings.
 
-Sales runs on hearing what someone actually needs, instead of what you'd like to sell
-them.
+The degree is the incubation phase, not the credential. The work that counts is the code
+with tagged releases, the test results published including the ones that failed, and the
+three years of technical sales before either — $350K in personal sales in a single year,
+which is where the habit of listening before building came from.
 
-Both turn out to be the parts of software engineering nobody teaches you in a CS course.
-Both are why I write things down and why I'd rather ship one honest feature than five
-claimed ones.
+The fab floor supplies the other half: written procedures, root-cause analysis, and the
+assumption that undocumented work didn't happen. That is why every repo here carries
+verify steps, evidence folders, and READMEs that say out loud which parts don't work yet.
+
+**The standing rule:** a claim ships only when a test result backs it. Claims that aren't
+proven don't get made — they get written down as findings instead.
 
 ---
 
-*Building in public, slowly and on purpose.*
+## Active ventures & flagship projects
+
+| Project | Architectural scope / problem solved | Stack | Status |
+|---|---|---|---|
+| **Moss** | Calm local-first daily dashboard — calendar, money, meals, news, email, notes on one screen. Encrypted SQLite; local-model inference resolved at runtime so a user's own model server outranks the bundled one. No account, no server. | `TypeScript` `Electron` `React` `SQLite` `Three.js` | **Public beta · MIT** — [mossprint](https://github.com/braxhughes/mossprint) |
+| **Peat** | On-device work memory for macOS. Keeps a readable, deletable index of what you worked on and feeds it to Siri, which is good at *doing* and bad at *remembering*. Capture, OCR, and summarization never leave the machine. | `Swift 6` `SwiftUI` `App Intents` `ScreenCaptureKit` `Vision` | Private · in development |
+| **Panoptes** | Privacy-first native macOS multimodal event utility. Fully on-device. | `Swift 6` `SwiftUI` `SwiftPM` `Core ML` | Private · proprietary |
+| **Afoot** | The five things actually worth doing near you tonight — ranked, each with an honest reason. TypeScript service monorepo behind a native iOS client. Portland first. | `TypeScript` `pnpm workspaces` `Swift` `iOS` `SQL` | Private · in development |
+
+---
+
+## Technical stack
+
+**Systems & core languages**
+
+<img src="https://skillicons.dev/icons?i=swift,ts,py,bash,c&theme=dark" alt="Swift, TypeScript, Python, Bash, C" />
+
+![Swift 6](https://img.shields.io/badge/Swift%206-1a1b26?style=for-the-badge&logo=swift&logoColor=7aa2f7)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-1a1b26?style=for-the-badge&logo=swift&logoColor=bb9af7)
+![App Intents](https://img.shields.io/badge/App%20Intents-1a1b26?style=for-the-badge&logo=apple&logoColor=c0caf5)
+
+**Cloud, infra & DevOps**
+
+<img src="https://skillicons.dev/icons?i=git,githubactions,nodejs,npm,xcode&theme=dark" alt="Git, GitHub Actions, Node.js, npm, Xcode" />
+
+![gitleaks](https://img.shields.io/badge/gitleaks-1a1b26?style=for-the-badge&logo=git&logoColor=9ece6a)
+![Code Signing](https://img.shields.io/badge/Signing%20%26%20Notarization-1a1b26?style=for-the-badge&logo=apple&logoColor=c0caf5)
+![pnpm](https://img.shields.io/badge/pnpm-1a1b26?style=for-the-badge&logo=pnpm&logoColor=e0af68)
+
+**AI/ML, data & storage**
+
+<img src="https://skillicons.dev/icons?i=sqlite&theme=dark" alt="SQLite" />
+
+![Core ML](https://img.shields.io/badge/Core%20ML-1a1b26?style=for-the-badge&logo=apple&logoColor=7aa2f7)
+![Vision / OCR](https://img.shields.io/badge/Vision%20%2F%20OCR-1a1b26?style=for-the-badge&logo=apple&logoColor=bb9af7)
+![Ollama](https://img.shields.io/badge/Ollama-1a1b26?style=for-the-badge&logo=ollama&logoColor=c0caf5)
+![LM Studio](https://img.shields.io/badge/LM%20Studio-1a1b26?style=for-the-badge&logo=probot&logoColor=9ece6a)
+![Encrypted SQLite](https://img.shields.io/badge/Encrypted%20SQLite-1a1b26?style=for-the-badge&logo=sqlite&logoColor=e0af68)
+
+**Frontend & client engineering**
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,threejs,electron,vite&theme=dark" alt="React, Tailwind, Three.js, Electron, Vite" />
+
+![EventKit](https://img.shields.io/badge/EventKit-1a1b26?style=for-the-badge&logo=apple&logoColor=7aa2f7)
+![ScreenCaptureKit](https://img.shields.io/badge/ScreenCaptureKit-1a1b26?style=for-the-badge&logo=apple&logoColor=bb9af7)
+
+---
+
+## System telemetry
+
+<!--
+  github-metrics.svg is generated and committed by .github/workflows/metrics.yml.
+  It will 404 until that workflow runs successfully for the first time.
+  Setup: create a classic PAT (scopes: read:user, repo), save it as the repo secret
+  METRICS_TOKEN, then run the workflow from the Actions tab.
+  The `repo` scope is what lets the languages plugin count private work.
+-->
+
+<div align="center">
+
+<img src="./github-metrics.svg" alt="Contribution calendar, language breakdown, and commit habits" width="100%" />
+
+<br />
+
+<!--
+  Heads up on the top-langs card below: the shared github-readme-stats instance was
+  returning 503 (over quota) when this file was written, 2026-07-25. That instance is
+  chronically rate-limited. If the card shows broken here, either delete the line or
+  deploy your own instance to Vercel and swap the host — the project's README documents
+  the one-click deploy. The metrics card above covers the same ground more accurately.
+-->
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=braxhughes&theme=tokyonight&hide_border=true&background=1a1b26&ring=7aa2f7&fire=bb9af7&currStreakLabel=c0caf5" alt="Contribution streak" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=braxhughes&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5&langs_count=8" alt="Most-used languages" height="180" />
+
+<br />
+
+<sub>The streak and language cards read public repositories only. Most of the work above
+lives in private repos — the metrics card is the accurate one, because it authenticates.</sub>
+
+</div>
+
+---
+
+## Open source & ecosystem
+
+- **[Moss](https://github.com/braxhughes/mossprint)** — maintainer. Public beta,
+  MIT-licensed, tagged releases, CLA and security policy in place. The one shipped product
+  here that anyone can install today.
+- **[BasedHardware/omi](https://github.com/BasedHardware/omi)** — 27 commits on a local
+  fork branch hardening the desktop voice path: push-to-talk that answers without opening
+  a chat window, permission prompts that stop re-firing, realtime web search, and Apple
+  Music routing. **Not yet upstreamed** — no pull request open as of July 2026.
+- **Agent tooling** — `agent-os-template` (earned autonomy for coding agents: an
+  append-only ledger, three review tiers, and an inspector that grades work the builder
+  didn't do), `claude-statusline`, and `agent-bell`. Written, licensed, and running daily
+  here; **currently private repos**, pending a release pass.
+- **Architecture research** — a cross-repository audit of every project in the tree,
+  written to be deliberately non-flattering: duplicate-maintenance findings, license
+  mismatches, and sampling disclosed wherever code wasn't read end to end.
+
+---
+
+## Direct channels
+
+| Channel | Address |
+|---|---|
+| **Email** | [Braxtonaodha@proton.me](mailto:Braxtonaodha@proton.me) |
+| **Book a call** | [cal.com/braxhughes](https://cal.com/braxhughes) — 15 or 30 minutes |
+| **X** | [@statezerohq](https://x.com/statezerohq) |
+| **LinkedIn** | [braxton-hughes-469b64284](https://linkedin.com/in/braxton-hughes-469b64284) |
+| **GitHub** | [@braxhughes](https://github.com/braxhughes) |
+| **Location** | Vancouver, WA · Pacific Time |
+
+<div align="center">
+
+<a href="mailto:Braxtonaodha@proton.me"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=protonmail&logoColor=bb9af7" alt="Email" /></a>
+<a href="https://cal.com/braxhughes"><img src="https://img.shields.io/badge/Book%20a%20call-1a1b26?style=for-the-badge&logo=caldotcom&logoColor=c0caf5" alt="Book a call" /></a>
+<a href="https://x.com/statezerohq"><img src="https://img.shields.io/badge/@statezerohq-1a1b26?style=for-the-badge&logo=x&logoColor=c0caf5" alt="X" /></a>
+<!-- No logo on this one on purpose: Simple Icons removed the LinkedIn mark (trademark
+     request), so `logo=linkedin` renders an empty gap. Text-only is the clean fallback. -->
+<a href="https://linkedin.com/in/braxton-hughes-469b64284"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&labelColor=1a1b26" alt="LinkedIn" /></a>
+
+</div>
+
+<!--
+  DELIBERATELY ABSENT, 2026-07-25:
+  - Portfolio site — PERSONAL_SITE.md records the decision to defer until Peat L1.
+  - PGP — no keyring on this machine, no signed commits yet. A fingerprint with nothing
+    behind it is decoration. Signed commits are the version that shows up on the work.
+-->
+
+<div align="center">
+<sub><i>Building in public, slowly and on purpose.</i></sub>
+</div>
