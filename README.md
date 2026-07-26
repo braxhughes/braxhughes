@@ -3,43 +3,43 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:7aa2f7&height=180&section=header&text=Braxton%20Hughes&fontSize=46&fontColor=c0caf5&fontAlignY=36&desc=Local-first%20software%20engineer%20%C2%B7%20Vancouver%2C%20WA&descSize=16&descAlignY=56" alt="Braxton Hughes" />
 
 <a href="https://github.com/braxhughes">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Local-first+software.+Your+machine%2C+your+data.;Swift+6+%2F+SwiftUI+%C2%B7+TypeScript+%2F+Electron+%C2%B7+on-device+ML;Every+public+claim+points+at+a+test+result." alt="Founder vision, architecture focus, delivery standard" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Local-first+software.+Your+machine%2C+your+data.;Swift+6+%2F+SwiftUI+%C2%B7+TypeScript+%2F+Electron+%C2%B7+on-device+ML;Every+public+claim+points+at+a+test+result." alt="Local-first software — your machine, your data" />
 </a>
 
 </div>
 
 ---
 
-## Positioning
+## What I build
 
-> **Building local-first desktop and mobile software for people who don't want their day
-> living on someone else's server — in Swift 6/SwiftUI and TypeScript/Electron, with
-> on-device inference and encrypted local storage.**
-
----
-
-## Overview
-
-**What this is:** the profile of a 21-year-old who ships. CS at WSU Vancouver, production
-specialist at a semiconductor fab, and native macOS software in the evenings.
-
-The degree is the incubation phase, not the credential. The work that counts is the code
-with tagged releases, the test results published including the ones that failed, and the
-three years of technical sales before either — $350K in personal sales in a single year,
-which is where the habit of listening before building came from.
-
-The fab floor supplies the other half: written procedures, root-cause analysis, and the
-assumption that undocumented work didn't happen. That is why every repo here carries
-verify steps, evidence folders, and READMEs that say out loud which parts don't work yet.
-
-**The standing rule:** a claim ships only when a test result backs it. Claims that aren't
-proven don't get made — they get written down as findings instead.
+> **Local-first software — your calendar, your money, your day, staying on your own
+> machine. Swift 6/SwiftUI and TypeScript/Electron, with on-device inference and
+> encrypted local storage. No accounts, no cloud, no ads.**
 
 ---
 
-## Active ventures & flagship projects
+## About
 
-| Project | Architectural scope / problem solved | Stack | Status |
+I'm a CS student at WSU Vancouver and a production specialist at a semiconductor fab.
+Evenings, I build native macOS software.
+
+Before either of those I sold things for a living — Apple hardware, then cars, including
+$350K in personal sales in one year. Sales taught me to hear what someone actually needs
+before building what I'd like to sell them.
+
+The fab floor taught me the other half: written procedures, root-cause analysis, and the
+assumption that undocumented work didn't happen. That's why my repos are full of verify
+steps, evidence folders, and READMEs that say out loud which parts don't work yet.
+
+**My one rule: I only claim what I've watched happen.** Every public claim has to point
+at a test result. The ones that aren't proven yet don't get said — they get written down
+as findings instead.
+
+---
+
+## What I'm building
+
+| Project | What it is | Stack | Status |
 |---|---|---|---|
 | **Moss** | Calm local-first daily dashboard — calendar, money, meals, news, email, notes on one screen. Encrypted SQLite; local-model inference resolved at runtime so a user's own model server outranks the bundled one. No account, no server. | `TypeScript` `Electron` `React` `SQLite` `Three.js` | **Public beta · MIT** — [mossprint](https://github.com/braxhughes/mossprint) |
 | **Peat** | On-device work memory for macOS. Keeps a readable, deletable index of what you worked on and feeds it to Siri, which is good at *doing* and bad at *remembering*. Capture, OCR, and summarization never leave the machine. | `Swift 6` `SwiftUI` `App Intents` `ScreenCaptureKit` `Vision` | Private · in development |
@@ -85,7 +85,7 @@ proven don't get made — they get written down as findings instead.
 
 ---
 
-## System telemetry
+## Activity
 
 <!--
   github-metrics.svg is generated and committed by .github/workflows/metrics.yml.
@@ -121,7 +121,7 @@ lives in private repos — the metrics card is the accurate one, because it auth
 
 ---
 
-## Open source & ecosystem
+## Open source
 
 - **[Moss](https://github.com/braxhughes/mossprint)** — maintainer. Public beta,
   MIT-licensed, tagged releases, CLA and security policy in place. The one shipped product
@@ -140,7 +140,7 @@ lives in private repos — the metrics card is the accurate one, because it auth
 
 ---
 
-## Direct channels
+## Contact
 
 | Channel | Address |
 |---|---|
