@@ -46,9 +46,5 @@ jobs:
           plugin_languages_indepth: no
           repositories_affiliations: owner, collaborator
 
-          # When and how the commits actually happen.
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          # NOTE: plugin_habits removed 2026-07-25 — it rendered "Unexpected error"
+          # on the card (known-flaky upstream plugin, no useful log output).

@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:7aa2f7&height=180&section=header&text=Braxton%20Hughes&fontSize=46&fontColor=c0caf5&fontAlignY=36&desc=Local-first%20software%20engineer%20%C2%B7%20Vancouver%2C%20WA&descSize=16&descAlignY=56" alt="Braxton Hughes" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:414868,100:7aa2f7&height=180&section=header&text=Braxton%20Hughes&fontSize=46&fontColor=c0caf5&fontAlignY=36&desc=Software%20engineer%20%C2%B7%20Vancouver%2C%20WA&descSize=16&descAlignY=56" alt="Braxton Hughes" />
 
 <a href="https://github.com/braxhughes">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Local-first+software.+Your+machine%2C+your+data.;Swift+6+%2F+SwiftUI+%C2%B7+TypeScript+%2F+Electron+%C2%B7+on-device+ML;Every+public+claim+points+at+a+test+result." alt="Local-first software — your machine, your data" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=7AA2F7&center=true&vCenter=true&width=820&height=48&lines=Working+software%2C+shipped+honestly.;Swift+6+%C2%B7+TypeScript+%C2%B7+desktop%2C+mobile%2C+cloud;Every+public+claim+points+at+a+test+result." alt="Local-first software — your machine, your data" />
 </a>
 
 </div>
@@ -12,28 +12,20 @@
 
 ## What I build
 
-> **Local-first software — your calendar, your money, your day, staying on your own
-> machine. Swift 6/SwiftUI and TypeScript/Electron, with on-device inference and
-> encrypted local storage. No accounts, no cloud, no ads.**
+> **Working software across the stack: a desktop dashboard in public beta, native Mac
+> utilities in Swift 6, an iOS app with a TypeScript backend, and open-source tools
+> for running AI coding agents. Privacy-first by default — local when it should be,
+> cloud when the job calls for it.**
 
 ---
 
 ## About
 
-I'm a CS student at WSU Vancouver and a production specialist at a semiconductor fab.
-Evenings, I build native macOS software.
+CS student at WSU Vancouver. Production specialist at a semiconductor fab. Three years
+of tech sales before that — $350K of it in one year. I build software in the evenings.
 
-Before either of those I sold things for a living — Apple hardware, then cars, including
-$350K in personal sales in one year. Sales taught me to hear what someone actually needs
-before building what I'd like to sell them.
-
-The fab floor taught me the other half: written procedures, root-cause analysis, and the
-assumption that undocumented work didn't happen. That's why my repos are full of verify
-steps, evidence folders, and READMEs that say out loud which parts don't work yet.
-
-**My one rule: I only claim what I've watched happen.** Every public claim has to point
-at a test result. The ones that aren't proven yet don't get said — they get written down
-as findings instead.
+**One rule: I only claim what I've watched happen.** Every public claim points at a test
+result; the unproven ones get written down as findings, not features.
 
 ---
 
@@ -136,10 +128,10 @@ lives in private repos — the metrics card is the accurate one, because it auth
 - **[claude-statusline](https://github.com/braxhughes/claude-statusline)** — a status
   line that says *when to switch* — before you hit the usage wall mid-task, not after.
   Every failure path exits silently; it can never break a session. MIT, tagged.
-- **[agent-os-template](https://github.com/braxhughes/agent-os-template)** — earned
-  autonomy for coding agents: an append-only ledger, three trust tiers, and an
-  `/inspect` skill that grades work the builder didn't do. A GitHub template — click
-  "Use this template" and it's yours. MIT, tagged.
+- **[agent-os-template](https://github.com/braxhughes/agent-os-template)** — a starter
+  kit for keeping AI coding agents honest: work gets graded in a separate session, the
+  grades collect in a ledger, and trust is earned from the record. A GitHub template.
+  MIT, tagged.
 - **Architecture research** — a cross-repository audit of every project in the tree,
   written to be deliberately non-flattering: duplicate-maintenance findings, license
   mismatches, and sampling disclosed wherever code wasn't read end to end.
