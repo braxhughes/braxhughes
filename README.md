@@ -12,10 +12,8 @@
 
 ## What I build
 
-> **Working software across the stack: a desktop dashboard in public beta, native Mac
-> utilities in Swift 6, an iOS app with a TypeScript backend, and open-source tools
-> for running AI coding agents. Privacy-first by default — local when it should be,
-> cloud when the job calls for it.**
+> ** open-source tools & fun projects
+> **
 
 ---
 
