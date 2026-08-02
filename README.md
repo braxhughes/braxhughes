@@ -1,9 +1,4 @@
-# Braxton Hughes
 
-WSU Vancouver CS student learning and building at the frontier of AI and software
-development.
-
----
 
 ## Now building
 
