@@ -32,7 +32,7 @@ nothing touches your `settings.json`.
 /plugin install agent-bell@braxhughes
 ```
 
-MIT · v0.2.0
+MIT · v0.3.0
 
 ### [claude-statusline](https://github.com/braxhughes/claude-statusline)
 
