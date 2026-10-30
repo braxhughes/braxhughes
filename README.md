@@ -1,28 +1,37 @@
-# Braxton Hughes
+<h1 align="center">Braxton Hughes</h1>
 
-Junior at WSU Vancouver in Creative Media and Digital Culture (CMDC), specializing in web and app development. I build web products with teams of AI coding agents. I set the goals, the rules the agents work under, and the quality bar, I review and playtest every build, and I make the product calls. A review process I designed checks the agents' work before anything merges.
+<p align="center">
+  Web and app development student in WSU Vancouver's Creative Media and Digital Culture program.<br />
+  I build web products with teams of AI coding agents, and I own the product calls.
+</p>
 
-Looking for front-end or web developer internships.
+<p align="center">
+  <a href="https://staticade.com">staticade.com</a> ·
+  <a href="https://github.com/braxhughes/staticade">Staticade source</a>
+</p>
 
-## Staticade
+---
 
-**A free browser arcade of original games, drawn entirely as glowing dots in code.**
-[staticade.com](https://staticade.com) · [source](https://github.com/braxhughes/staticade)
+## Featured: Staticade
 
-<img src="https://raw.githubusercontent.com/braxhughes/staticade/main/docs/media/starfall-machine-select.gif" alt="Walking up to the STARFALL cabinet in the lobby, inserting a coin, and pushing into the CRT title screen" width="640" />
+<a href="https://staticade.com"><img src="https://raw.githubusercontent.com/braxhughes/staticade/main/docs/media/staticade-lobby.png" alt="The Staticade lobby: a STATICADE wordmark over a row of arcade cabinets drawn in glowing dots, with STARFALL selected" width="100%" /></a>
 
-The first game, **Starfall**, is a fixed shooter in the classic arcade style with its own mechanics: you fill a lantern with kills and spend it to turn a diving enemy into a wingman, chain kills for multipliers, graze bullets for points, and fight three multi-phase bosses across 15 stages. There is a shared Daily Flight seed, ranked leagues, and a server-side leaderboard.
+**A free browser arcade of original games, drawn entirely as glowing dots in code.** The first game, Starfall, is a fixed shooter with its own mechanics: 15 stages, three multi-phase bosses, a shared daily seed, ranked leagues and a server-checked leaderboard.
 
-What makes it interesting under the hood:
+- **No image, font or audio files.** Every pixel is a dot drawn by WebGL and run through a CRT shader. All sound is synthesized with Web Audio.
+- **Scores are re-simulated on the server.** The game is deterministic, so the browser sends only its inputs and the server replays them on the same code.
+- **No build step.** Plain JavaScript modules, a Cloudflare Worker and a D1 database.
 
-- **No image, font or audio files.** Every pixel is a dot drawn by WebGL, then run through a CRT shader. All music and sound is synthesized live with Web Audio.
-- **Scores are re-simulated on the server.** The game is fully deterministic, so the browser only sends its inputs. The server replays them on the same game code and keeps the score only if it matches exactly.
-- **No build step, no runtime dependencies.** Plain JavaScript modules, a Cloudflare Worker and a D1 database.
-
-**How it was built.** I directed a team of Claude agents through about 4 days and 400+ commits. I wrote the rules they work under, set the goals and deadlines, playtested every build, and made the product calls. Each feature went through a written brief, a builder agent in its own git branch, and a cold review by a different agent told to break it. Builders were never allowed to edit their own tests; every test change needed my sign-off. That review step caught bugs the tests missed, including one where leaving a game mid-frame started its title music over the lobby. More in [How it was built](https://github.com/braxhughes/staticade/blob/main/HOW-IT-WAS-BUILT.md).
+**My role.** I directed a team of Claude agents over about 4 days and 400+ commits. I wrote the rules they work under, playtested every build and made the product calls. Every change went through a cold review by a separate agent told to break it, and builders could never edit their own tests. That review caught bugs the tests missed. [How it was built →](https://github.com/braxhughes/staticade/blob/main/HOW-IT-WAS-BUILT.md)
 
 `JavaScript` `WebGL` `Web Audio` `Cloudflare Workers` `D1 / SQL` `Playwright` `Claude Code`
 
-Next up: a block puzzle game and a platform race, both original.
+## How I work
 
-<img src="github-metrics.svg" alt="GitHub activity metrics" />
+- **I design the system the agents work in:** briefs, roles, review rules and what counts as done.
+- **I test as a player:** if it doesn't feel right, it goes back, even when the tests pass.
+- **I write down what was checked and what wasn't,** so nobody has to guess.
+
+## Now
+
+Looking for front-end or web developer internships. Building the next Staticade games: a block puzzle and a platform race.
