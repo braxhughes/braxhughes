@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" alt="Braxton Hughes. Web and app development, WSU Vancouver. I design and ship web products by directing teams of AI coding agents, then testing what they build. Open to front-end and web dev internships." width="100%">
+<img src="assets/hero.svg" alt="Braxton Hughes. Web and app development, WSU Vancouver. I design and ship web products by directing teams of AI coding agents, then test what they build. Open to front-end and web dev internships." width="100%">
 
 <img src="assets/h-work.svg" alt="01 Selected work" width="100%">
 
